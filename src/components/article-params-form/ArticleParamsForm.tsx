@@ -107,8 +107,8 @@ export const ArticleParamsForm = (props: ArticleParamsFormProps) => {
 						onChange={handleChange('contentWidth')}
 					/>
 					<div className={styles.bottomContainer}>
-						<Button title='Сбросить' type='clear' />
-						<Button title='Применить' type='apply' />
+						<Button title='Сбросить' type='reset' />
+						<Button title='Применить' type='submit' />
 					</div>
 				</form>
 			</aside>
